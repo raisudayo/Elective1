@@ -337,6 +337,7 @@ def take_img():
             "- Change lighting if possible",
             "We'll capture 200   images for better accuracy"
         ]
+
         
         while sampleNum < 200:
             ret, img = cam.read()
